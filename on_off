@@ -1,0 +1,11 @@
+<button>on</button>
+
+<button>off</button>
+
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    alert("Value: " + $("#test").val());
+  });
+});
+</script>
