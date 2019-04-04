@@ -1,0 +1,17 @@
+COMMNET: REMEMBER EACH MELODY INTERMS OF BUTTONS OR NUMBERS
+
+<!DOCTYPE html>
+<html>
+<head>
+<script src="/jquery/jquery-1.11.1.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    alert("Value: " + $("#test").val());
+    
+    /// ADD SQL IN JAVA
+  });
+});
+</script>
+</head>
+
